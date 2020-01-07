@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/expense_name"
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Text"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+        <EditText
+            android:id="@+id/expense_price"
+            android:layout_width="400dp"
+            android:layout_height="49dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <Spinner
+            android:id="@+id/expense_category"
+            android:layout_width="400dp"
+            android:layout_height="25dp"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="162dp" />
+
+        <Button
+            android:id="@+id/add_expense"
+            android:layout_width="413dp"
+            android:layout_height="48dp"
+            android:text="Dodaj"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="629dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
