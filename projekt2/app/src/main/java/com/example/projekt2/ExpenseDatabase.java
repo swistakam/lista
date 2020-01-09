@@ -19,7 +19,7 @@ public class ExpenseDatabase {
         }
 
         static  {
-            expenses.add(new Expense("Jajka" , 4.2, ExpenseCategory.FOOD));
+            expenses.add(new Expense("Pomidory" , 3.2, ExpenseCategory.FOOD));
             expenses.add(new Expense("Kino" , 32, ExpenseCategory.ENTERTAINMENT));
             expenses.add(new Expense("Szampon" , 9.99, ExpenseCategory.HYGIENE));
         }
